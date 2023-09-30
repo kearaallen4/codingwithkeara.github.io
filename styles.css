@@ -5,3 +5,7 @@ h1 {
     font-size: 60px;
     color: rgb(196, 13, 119)
 }
+
+body {
+    color-background: bisque;
+}
