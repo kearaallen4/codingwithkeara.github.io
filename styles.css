@@ -11,14 +11,46 @@ body {
     background-color: rgb(244, 252, 253);
 }
 
-button {
-    background-color: rgb(4, 200, 214);
-    font-family: "";
-    font-size: 20px;
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 70vw 30vw;
+    height: 90vh;
+    width: 100%;
+}
+
+.header-container {
+    grid-column: 1/2;
+    grid-row: 1;
+
+}
+
+
+.button {
+    background-color: rgb(98, 198, 223);
+    border: 2px solid black;
+    border-radius: 70px;
     color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .main-container {
     background-image: url(assets/water\ background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.rcorners {
+    border-radius: 100px;
+    background: rgb(98, 198, 223);
+    padding: 10px;
+    width: 200px;
+    height: 250px;
 }
