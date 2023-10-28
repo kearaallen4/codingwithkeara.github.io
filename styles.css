@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 50vw 50vw;
+    grid-template-rows: ;
+    grid-template-columns: ;
     height: 90vh;
     width: 100%;
 }
@@ -23,14 +23,16 @@ h1 {
 }
 
 
-.button {
+.list {
     background-color: rgb(98, 198, 223);
     border: 2px solid black;
     border-radius: 70px;
     color: black;
     padding: 10px 20px;
-    text-align: center;
+    margin-top: 20px;
+    list-style-type: none;
     text-decoration: none;
+    text-align: center;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
