@@ -1,25 +1,10 @@
-.grid-container {
-    display: grid;
-    grid-template-rows: ;
-    grid-template-columns: ;
-    height: 90vh;
-    width: 100%;
-}
-
 h1 {
     font-family: Dancing Script;
     text-align: right;
     font-style: italic;
     font-size: 60px;
     font-weight: lighter;
-    color: rgb(0, 0, 0);
-}
-
-
-.header-container {
-    grid-column: 1/2;
-    grid-row: 1;
-
+    color: black;
 }
 
 
@@ -32,10 +17,16 @@ h1 {
     margin-top: 20px;
     list-style-type: none;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
     font-size: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Indie Flower;
 
+}
+
+.links {
+    color: black;
+    text-decoration: none;
+    font-family: Indie Flower;
 }
 
 .main-container {
@@ -53,6 +44,6 @@ h1 {
     border-radius: 100px;
     background: rgb(98, 198, 223);
     padding: 10px;
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
 }
