@@ -30,14 +30,13 @@ h1 {
 }
 
 .main-container {
-    background-image: url(assets/water\ background.jpg);
+    background-image: url(assets\GitHub\codingwithkeara.github.io\assets\water.jpg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
     width: 100%;
     overflow: hidden;
-
 }
 
 .rcorners {
