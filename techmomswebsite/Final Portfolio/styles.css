@@ -1,4 +1,7 @@
 h1 {
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
     font-family: Dancing Script;
     text-align: right;
     font-style: italic;
@@ -9,10 +12,22 @@ h1 {
 
 
 .list {
-    background-color: rgb(98, 198, 223);
+    display: grid;
+    grid-column: 1;
+    grid-row: 1/2;
+    padding: 10px 20px;
+    margin-top: 20px;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.links {
+    background-color: #1b3a59;
     border: 2px solid black;
     border-radius: 70px;
-    color: black;
+    color: beige;
+    text-decoration: none;
     padding: 10px 20px;
     margin-top: 20px;
     list-style-type: none;
@@ -20,16 +35,14 @@ h1 {
     text-align: left;
     font-size: 15px;
     font-family: Indie Flower;
-
-}
-
-.links {
-    color: black;
-    text-decoration: none;
-    font-family: Indie Flower;
 }
 
 .main-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+    width: 100%;
     background-image: url(assets/water.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,9 +54,12 @@ h1 {
 }
 
 .rcorners {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2/2;
     border-radius: 100px;
-    background: rgb(98, 198, 223);
-    padding: 10px;
+    background: #1b3a59;
+    padding: 8px;
     width: 300px;
     height: 350px;
 }
