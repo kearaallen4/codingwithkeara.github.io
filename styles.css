@@ -2,7 +2,7 @@ h1 {
     display: grid;
     grid-row: 1;
     grid-column: 2;
-    font-family: Dancing Script;
+    font-family: Marck Script;
     text-align: center;
     font-style: italic;
     font-size: 100px;
@@ -22,6 +22,7 @@ p {
     text-align: center;
     padding: 0% 30% 0% 10%;
     font-size: 28px;
+    margin: 0;
 }
 
 nav {
